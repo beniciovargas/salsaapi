@@ -13,9 +13,9 @@ router.get('/artists/:id', ctrl.artists.show);
 router.post('/artists', ctrl.artists.create);
 
 // PUT Artist Update
-// router.put('/artists/:id', ctrl.artists.update);
+router.put('/artists/:id', ctrl.artists.update);
 
 // DELETE Artist Destroy
-//router.delete('/artists/:id', ctrl.artists.destroy);
+router.delete('/artists/:id', ctrl.artists.destroy);
 
 module.exports = router;
